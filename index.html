@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies and Series</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .sub-header {
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+            color: #ccc;
+            font-weight: normal;
+            background-color: #333;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: #000;
+        }
+        .item img {
+            width: 80px;
+            height: 120px;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+        .item-details {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .item-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 5px;
+        }
+        .item-button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-top: 20px; /* Increased space between details and button */
+        }
+        .item-button:hover {
+            background-color: #218838;
+        }
+        .rating {
+            font-size: 14px;
+            color: #ffbf00;
+            margin-top: 5px;
+        }
+
+        /* Stats Section */
+        .stats {
+            background-color: #222;
+            padding: 30px 0;
+            text-align: center;
+            color: #fff;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
+        .stats .stat-item {
+            display: inline-block;
+            margin: 0 30px;
+            text-align: center;
+            font-size: 18px;
+            color: #f1f1f1;
+        }
+        .stats .stat-item span {
+            display: block;
+            font-size: 32px;
+            font-weight: bold;
+            color: #ffbf00;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Enjoy this free series</div>
+    <div class="sub-header">
+        Want to watch the best series, movies, and live Netflix football matches for free? Here’s how:
+        <ol>
+            <li>Click "Watch" below</li>
+            <li>Install our free app and sign up</li>
+            <li>You’ll be redirected to the app’s site, where you can complete the installation and enjoy your content</li>
+        </ol>
+        <p><strong>Use the code 3060 to get full access to the app for FREE!</strong></p>
+    </div>
+    <div class="container">
+        <!-- Vikings -->
+        <div class="item">
+            <img src="https://i.imgur.com/iNzN2je.jpeg" alt="Vikings">
+            <div class="item-details">
+                <h2 class="item-title">Vikings</h2>
+                <div class="rating">IMDb: 8.6/10 <span>⭐⭐⭐⭐⭐</span></div>
+                <a href="https://is.gd/RQiJYd" class="item-button">Watch</a>
+            </div>
+        </div>
+        <!-- Alice in Borderland -->
+        <div class="item">
+            <img src="https://i.imgur.com/oKQ7y2g.jpeg" alt="Alice in Borderland">
+            <div class="item-details">
+                <h2 class="item-title">Alice in Borderland</h2>
+                <div class="rating">IMDb: 7.7/10 <span>⭐⭐⭐⭐</span></div>
+                <a href="https://is.gd/RQiJYd" class="item-button">Watch</a>
+            </div>
+        </div>
+        <!-- Breaking Bad -->
+        <div class="item">
+            <img src="https://i.imgur.com/mm84Nhb.png" alt="Breaking Bad">
+            <div class="item-details">
+                <h2 class="item-title">Breaking Bad</h2>
+                <div class="rating">IMDb: 9.5/10 <span>⭐⭐⭐⭐⭐</span></div>
+                <a href="https://is.gd/RQiJYd" class="item-button">Watch</a>
+            </div>
+        </div>
+        <!-- The Sopranos -->
+        <div class="item">
+            <img src="https://i.imgur.com/m0xvQmU.jpeg" alt="The Sopranos">
+            <div class="item-details">
+                <h2 class="item-title">The Sopranos</h2>
+                <div class="rating">IMDb: 9.2/10 <span>⭐⭐⭐⭐⭐</span></div>
+                <a href="https://is.gd/RQiJYd" class="item-button">Watch</a>
+            </div>
+        </div>
+        <!-- La Casa de Papel -->
+        <div class="item">
+            <img src="https://i.imgur.com/p4lpDIi.jpeg" alt="La Casa de Papel">
+            <div class="item-details">
+                <h2 class="item-title">La Casa de Papel</h2>
+                <div class="rating">IMDb: 8.3/10 <span>⭐⭐⭐⭐</span></div>
+                <a href="https://is.gd/RQiJYd" class="item-button">Watch</a>
+            </div>
+        </div>
+        <!-- Dark -->
+        <div class="item">
+            <img src="https://i.imgur.com/Pxfa0TM.jpeg" alt="Dark">
+            <div class="item-details">
+                <h2 class="item-title">Dark</h2>
+                <div class="rating">IMDb: 8.8/10 <span>⭐⭐⭐⭐⭐</span></div>
+                <a href="https://is.gd/RQiJYd" class="item-button">Watch</a>
+            </div>
+        </div>
+        <!-- Game of Thrones -->
+        <div class="item">
+            <img src="https://i.imgur.com/q530WHL.jpeg" alt="Game of Thrones">
+            <div class="item-details">
+                <h2 class="item-title">Game of Thrones</h2>
+                <div class="rating">IMDb: 9.3/10 <span>⭐⭐⭐⭐⭐</span></div>
+                <a href="https://is.gd/RQiJYd" class="item-button">Watch</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats">
+        <div class="stat-item">
+            <span>1.2M</span>
+            Facebook Followers
+        </div>
+        <div class="stat-item">
+            <span>3.6M</span>
+            Instagram Followers
+        </div>
+        <div class="stat-item">
+            <span>727K</span>
+            X Followers
+        </div>
+        <div class="stat-item">
+            <span>2.4M</span>
+            TikTok Followers
+        </div>
+    </div>
+</body>
+</html>
